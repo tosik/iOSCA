@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B182750C188799BF002E8996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B182750B188799BF002E8996 /* Foundation.framework */; };
+		B182750E188799BF002E8996 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B182750D188799BF002E8996 /* CoreGraphics.framework */; };
+		B1827510188799BF002E8996 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B182750F188799BF002E8996 /* UIKit.framework */; };
+		B1827512188799BF002E8996 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1827511188799BF002E8996 /* SpriteKit.framework */; };
+		B1827518188799BF002E8996 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1827516188799BF002E8996 /* InfoPlist.strings */; };
+		B182751A188799BF002E8996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1827519188799BF002E8996 /* main.m */; };
+		B182751E188799BF002E8996 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B182751D188799BF002E8996 /* AppDelegate.mm */; };
+		B1827521188799BF002E8996 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B182751F188799BF002E8996 /* Main_iPhone.storyboard */; };
+		B1827524188799BF002E8996 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1827522188799BF002E8996 /* Main_iPad.storyboard */; };
+		B1827527188799BF002E8996 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1827526188799BF002E8996 /* ViewController.mm */; };
+		B182752A188799BF002E8996 /* MyScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1827529188799BF002E8996 /* MyScene.mm */; };
+		B182752C188799BF002E8996 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B182752B188799BF002E8996 /* Spaceship.png */; };
+		B182752E188799BF002E8996 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B182752D188799BF002E8996 /* Images.xcassets */; };
+		B1827535188799BF002E8996 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1827534188799BF002E8996 /* XCTest.framework */; };
+		B1827536188799BF002E8996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B182750B188799BF002E8996 /* Foundation.framework */; };
+		B1827537188799BF002E8996 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B182750F188799BF002E8996 /* UIKit.framework */; };
+		B182753F188799BF002E8996 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B182753D188799BF002E8996 /* InfoPlist.strings */; };
+		B1827541188799BF002E8996 /* HighSpeedCATests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1827540188799BF002E8996 /* HighSpeedCATests.m */; };
+		B182754F18879BCE002E8996 /* BitboardViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B182754B18879BCE002E8996 /* BitboardViewer.cpp */; };
+		B182755018879BCE002E8996 /* GenerationOuterTotalisticCA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B182754C18879BCE002E8996 /* GenerationOuterTotalisticCA.cpp */; };
+		B182755118879BCE002E8996 /* LargeBitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B182754D18879BCE002E8996 /* LargeBitboard.cpp */; };
+		B182755218879BCE002E8996 /* OuterTotalisticCA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B182754E18879BCE002E8996 /* OuterTotalisticCA.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1827538188799BF002E8996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1827500188799BE002E8996 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1827507188799BF002E8996;
+			remoteInfo = HighSpeedCA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1827508188799BF002E8996 /* HighSpeedCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighSpeedCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B182750B188799BF002E8996 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B182750D188799BF002E8996 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B182750F188799BF002E8996 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1827511188799BF002E8996 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B1827515188799BF002E8996 /* HighSpeedCA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighSpeedCA-Info.plist"; sourceTree = "<group>"; };
+		B1827517188799BF002E8996 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1827519188799BF002E8996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B182751B188799BF002E8996 /* HighSpeedCA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HighSpeedCA-Prefix.pch"; sourceTree = "<group>"; };
+		B182751C188799BF002E8996 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B182751D188799BF002E8996 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		B1827520188799BF002E8996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B1827523188799BF002E8996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B1827525188799BF002E8996 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1827526188799BF002E8996 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B1827528188799BF002E8996 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		B1827529188799BF002E8996 /* MyScene.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyScene.mm; sourceTree = "<group>"; };
+		B182752B188799BF002E8996 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B182752D188799BF002E8996 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1827533188799BF002E8996 /* HighSpeedCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighSpeedCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1827534188799BF002E8996 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B182753C188799BF002E8996 /* HighSpeedCATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighSpeedCATests-Info.plist"; sourceTree = "<group>"; };
+		B182753E188799BF002E8996 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1827540188799BF002E8996 /* HighSpeedCATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighSpeedCATests.m; sourceTree = "<group>"; };
+		B182754B18879BCE002E8996 /* BitboardViewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BitboardViewer.cpp; path = ../../src/BitboardViewer.cpp; sourceTree = "<group>"; };
+		B182754C18879BCE002E8996 /* GenerationOuterTotalisticCA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenerationOuterTotalisticCA.cpp; path = ../../src/GenerationOuterTotalisticCA.cpp; sourceTree = "<group>"; };
+		B182754D18879BCE002E8996 /* LargeBitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LargeBitboard.cpp; path = ../../src/LargeBitboard.cpp; sourceTree = "<group>"; };
+		B182754E18879BCE002E8996 /* OuterTotalisticCA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OuterTotalisticCA.cpp; path = ../../src/OuterTotalisticCA.cpp; sourceTree = "<group>"; };
+		B182755318879BD7002E8996 /* bbcommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bbcommon.h; path = ../../include/bbcommon.h; sourceTree = "<group>"; };
+		B182755418879BD7002E8996 /* BitboardViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitboardViewer.h; path = ../../include/BitboardViewer.h; sourceTree = "<group>"; };
+		B182755518879BD7002E8996 /* GenerationOuterTotalisticCA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenerationOuterTotalisticCA.h; path = ../../include/GenerationOuterTotalisticCA.h; sourceTree = "<group>"; };
+		B182755618879BD7002E8996 /* IViewableBitboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IViewableBitboard.h; path = ../../include/IViewableBitboard.h; sourceTree = "<group>"; };
+		B182755718879BD7002E8996 /* LargeBitboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LargeBitboard.h; path = ../../include/LargeBitboard.h; sourceTree = "<group>"; };
+		B182755818879BD7002E8996 /* OuterTotalisticCA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OuterTotalisticCA.h; path = ../../include/OuterTotalisticCA.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1827505188799BF002E8996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B182750E188799BF002E8996 /* CoreGraphics.framework in Frameworks */,
+				B1827510188799BF002E8996 /* UIKit.framework in Frameworks */,
+				B1827512188799BF002E8996 /* SpriteKit.framework in Frameworks */,
+				B182750C188799BF002E8996 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1827530188799BF002E8996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1827535188799BF002E8996 /* XCTest.framework in Frameworks */,
+				B1827537188799BF002E8996 /* UIKit.framework in Frameworks */,
+				B1827536188799BF002E8996 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18274FF188799BE002E8996 = {
+			isa = PBXGroup;
+			children = (
+				B1827513188799BF002E8996 /* HighSpeedCA */,
+				B182753A188799BF002E8996 /* HighSpeedCATests */,
+				B182750A188799BF002E8996 /* Frameworks */,
+				B1827509188799BF002E8996 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1827509188799BF002E8996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1827508188799BF002E8996 /* HighSpeedCA.app */,
+				B1827533188799BF002E8996 /* HighSpeedCATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B182750A188799BF002E8996 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B182750B188799BF002E8996 /* Foundation.framework */,
+				B182750D188799BF002E8996 /* CoreGraphics.framework */,
+				B182750F188799BF002E8996 /* UIKit.framework */,
+				B1827511188799BF002E8996 /* SpriteKit.framework */,
+				B1827534188799BF002E8996 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1827513188799BF002E8996 /* HighSpeedCA */ = {
+			isa = PBXGroup;
+			children = (
+				B182754A18879BB5002E8996 /* BitboardCA */,
+				B182751C188799BF002E8996 /* AppDelegate.h */,
+				B182751D188799BF002E8996 /* AppDelegate.mm */,
+				B182751F188799BF002E8996 /* Main_iPhone.storyboard */,
+				B1827522188799BF002E8996 /* Main_iPad.storyboard */,
+				B1827525188799BF002E8996 /* ViewController.h */,
+				B1827526188799BF002E8996 /* ViewController.mm */,
+				B1827528188799BF002E8996 /* MyScene.h */,
+				B1827529188799BF002E8996 /* MyScene.mm */,
+				B182752B188799BF002E8996 /* Spaceship.png */,
+				B182752D188799BF002E8996 /* Images.xcassets */,
+				B1827514188799BF002E8996 /* Supporting Files */,
+			);
+			path = HighSpeedCA;
+			sourceTree = "<group>";
+		};
+		B1827514188799BF002E8996 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1827515188799BF002E8996 /* HighSpeedCA-Info.plist */,
+				B1827516188799BF002E8996 /* InfoPlist.strings */,
+				B1827519188799BF002E8996 /* main.m */,
+				B182751B188799BF002E8996 /* HighSpeedCA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B182753A188799BF002E8996 /* HighSpeedCATests */ = {
+			isa = PBXGroup;
+			children = (
+				B1827540188799BF002E8996 /* HighSpeedCATests.m */,
+				B182753B188799BF002E8996 /* Supporting Files */,
+			);
+			path = HighSpeedCATests;
+			sourceTree = "<group>";
+		};
+		B182753B188799BF002E8996 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B182753C188799BF002E8996 /* HighSpeedCATests-Info.plist */,
+				B182753D188799BF002E8996 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B182754A18879BB5002E8996 /* BitboardCA */ = {
+			isa = PBXGroup;
+			children = (
+				B182755318879BD7002E8996 /* bbcommon.h */,
+				B182755418879BD7002E8996 /* BitboardViewer.h */,
+				B182755518879BD7002E8996 /* GenerationOuterTotalisticCA.h */,
+				B182755618879BD7002E8996 /* IViewableBitboard.h */,
+				B182755718879BD7002E8996 /* LargeBitboard.h */,
+				B182755818879BD7002E8996 /* OuterTotalisticCA.h */,
+				B182754B18879BCE002E8996 /* BitboardViewer.cpp */,
+				B182754C18879BCE002E8996 /* GenerationOuterTotalisticCA.cpp */,
+				B182754D18879BCE002E8996 /* LargeBitboard.cpp */,
+				B182754E18879BCE002E8996 /* OuterTotalisticCA.cpp */,
+			);
+			name = BitboardCA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1827507188799BF002E8996 /* HighSpeedCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1827544188799BF002E8996 /* Build configuration list for PBXNativeTarget "HighSpeedCA" */;
+			buildPhases = (
+				B1827504188799BF002E8996 /* Sources */,
+				B1827505188799BF002E8996 /* Frameworks */,
+				B1827506188799BF002E8996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighSpeedCA;
+			productName = HighSpeedCA;
+			productReference = B1827508188799BF002E8996 /* HighSpeedCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1827532188799BF002E8996 /* HighSpeedCATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1827547188799BF002E8996 /* Build configuration list for PBXNativeTarget "HighSpeedCATests" */;
+			buildPhases = (
+				B182752F188799BF002E8996 /* Sources */,
+				B1827530188799BF002E8996 /* Frameworks */,
+				B1827531188799BF002E8996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1827539188799BF002E8996 /* PBXTargetDependency */,
+			);
+			name = HighSpeedCATests;
+			productName = HighSpeedCATests;
+			productReference = B1827533188799BF002E8996 /* HighSpeedCATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1827500188799BE002E8996 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tosik;
+				TargetAttributes = {
+					B1827532188799BF002E8996 = {
+						TestTargetID = B1827507188799BF002E8996;
+					};
+				};
+			};
+			buildConfigurationList = B1827503188799BE002E8996 /* Build configuration list for PBXProject "HighSpeedCA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18274FF188799BE002E8996;
+			productRefGroup = B1827509188799BF002E8996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1827507188799BF002E8996 /* HighSpeedCA */,
+				B1827532188799BF002E8996 /* HighSpeedCATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1827506188799BF002E8996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B182752C188799BF002E8996 /* Spaceship.png in Resources */,
+				B182752E188799BF002E8996 /* Images.xcassets in Resources */,
+				B1827524188799BF002E8996 /* Main_iPad.storyboard in Resources */,
+				B1827521188799BF002E8996 /* Main_iPhone.storyboard in Resources */,
+				B1827518188799BF002E8996 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1827531188799BF002E8996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B182753F188799BF002E8996 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1827504188799BF002E8996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B182752A188799BF002E8996 /* MyScene.mm in Sources */,
+				B182755218879BCE002E8996 /* OuterTotalisticCA.cpp in Sources */,
+				B182755018879BCE002E8996 /* GenerationOuterTotalisticCA.cpp in Sources */,
+				B182755118879BCE002E8996 /* LargeBitboard.cpp in Sources */,
+				B1827527188799BF002E8996 /* ViewController.mm in Sources */,
+				B182751E188799BF002E8996 /* AppDelegate.mm in Sources */,
+				B182751A188799BF002E8996 /* main.m in Sources */,
+				B182754F18879BCE002E8996 /* BitboardViewer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B182752F188799BF002E8996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1827541188799BF002E8996 /* HighSpeedCATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1827539188799BF002E8996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1827507188799BF002E8996 /* HighSpeedCA */;
+			targetProxy = B1827538188799BF002E8996 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1827516188799BF002E8996 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1827517188799BF002E8996 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B182751F188799BF002E8996 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1827520188799BF002E8996 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B1827522188799BF002E8996 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1827523188799BF002E8996 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B182753D188799BF002E8996 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B182753E188799BF002E8996 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1827542188799BF002E8996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1827543188799BF002E8996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1827545188799BF002E8996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighSpeedCA/HighSpeedCA-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../include,
+				);
+				INFOPLIST_FILE = "HighSpeedCA/HighSpeedCA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1827546188799BF002E8996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighSpeedCA/HighSpeedCA-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../include,
+				);
+				INFOPLIST_FILE = "HighSpeedCA/HighSpeedCA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1827548188799BF002E8996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HighSpeedCA.app/HighSpeedCA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighSpeedCA/HighSpeedCA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HighSpeedCATests/HighSpeedCATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B1827549188799BF002E8996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HighSpeedCA.app/HighSpeedCA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighSpeedCA/HighSpeedCA-Prefix.pch";
+				INFOPLIST_FILE = "HighSpeedCATests/HighSpeedCATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1827503188799BE002E8996 /* Build configuration list for PBXProject "HighSpeedCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1827542188799BF002E8996 /* Debug */,
+				B1827543188799BF002E8996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1827544188799BF002E8996 /* Build configuration list for PBXNativeTarget "HighSpeedCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1827545188799BF002E8996 /* Debug */,
+				B1827546188799BF002E8996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1827547188799BF002E8996 /* Build configuration list for PBXNativeTarget "HighSpeedCATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1827548188799BF002E8996 /* Debug */,
+				B1827549188799BF002E8996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1827500188799BE002E8996 /* Project object */;
+}
